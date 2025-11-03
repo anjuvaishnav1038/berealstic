@@ -1,0 +1,93 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.Python
+*.log
+
+# ---- Environment ----
+.env
+*.env
+.env.local
+venv/
+env/
+venv*/
+ENV/
+.venv/
+.blogenv/
+.idea/
+.vscode/
+
+# ---- FastAPI / Uvicorn ----
+*.db
+*.sqlite3
+
+# ---- Uploads / Data ----
+uploaded_files/
+data/
+downloads/
+tmp/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.txt
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+
+# ---- PyCharm / VSCode ----
+.vscode/
+.idea/
+
+# ---- OS generated files ----
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ---- Cache ----
+.cache/
+__pycache__/
+*.pytest_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# ---- Logs ----
+*.log
+*.out
+*.err
+
+# ---- Build ----
+build/
+dist/
+*.spec
+
+# ---- Test / Coverage ----
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# ---- Models / Embeddings ----
+embeddings/
+vector_store/
+index/
+models/
+*.bin
+*.pkl
+*.h5
+
+# ---- Temporary ----
+*.tmp
+*.bak
+*.swp
+*.swo
